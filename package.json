@@ -5,13 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && touch out/.nojekyll",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "test": "playwright test",
-    "test:ui": "playwright test --ui",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --dotfiles"
+    "test:ui": "playwright test --ui"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
