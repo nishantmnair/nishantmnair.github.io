@@ -10,23 +10,10 @@ import { FloatingContact } from "@/components/floating-contact"
 
 export default function Home() {
   useEffect(() => {
-    console.log('✅ Portfolio loaded successfully');
-    console.log('📍 Current path:', window.location.pathname);
-    console.log('🌐 Base URL:', window.location.origin);
-    console.log('📄 Document title:', document.title);
-    
-    // Check if CSS is loaded
-    const styles = window.getComputedStyle(document.body);
-    console.log('🎨 Body background:', styles.backgroundColor);
-    
-    // Check if images are loading
-    setTimeout(() => {
-      const images = document.querySelectorAll('img');
-      console.log(`🖼️ Total images on page: ${images.length}`);
-      images.forEach((img, i) => {
-        console.log(`Image ${i + 1}: ${img.src} - ${img.complete ? '✅ loaded' : '⏳ loading'}`);
-      });
-    }, 1000);
+    console.log('Portfolio loaded successfully');
+    console.log('Current path:', window.location.pathname);
+    console.log('Base URL:', window.location.origin);
+    console.log('Document title:', document.title);
   }, []);
 
   return (

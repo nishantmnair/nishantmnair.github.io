@@ -28,7 +28,7 @@ export function About() {
           >
             <div className="relative w-48 h-48 rounded-full overflow-hidden ring-4 ring-emerald-500 ring-offset-4">
               <Image
-                src="/images/profile.JPEG"
+                src="images/profile.JPEG"
                 alt="Nishant Nair"
                 fill
                 className="object-cover grayscale"

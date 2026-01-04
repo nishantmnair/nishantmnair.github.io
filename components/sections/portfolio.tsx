@@ -31,7 +31,7 @@ export function Portfolio() {
       description:
         "engineered a full-stack web application using a python/django rest framework backend and react.js frontend, backed by postgresql and firebase authentication to support secure, scalable user workflows. integrated google gemini ai api for automated resume/cover letter generation & mock interview coaching. designed restful apis with 100+ endpoints for crud operations, authentication, and integrations. integrated oauth 2.0 integrations with linkedin, github, and gmail apis for profile import & email linking. containerized and deployed application with docker, render, vercel with github actions ci/cd pipelines.",
       technologies: ["Python", "Django", "React.js", "PostgreSQL", "REST APIs", "Docker", "Git", "GitHub Actions", "OAuth 2.0"],
-      image: "/images/resumerocket-logo.png",
+      image: "images/resumerocket-logo.png",
       liveDemo: "https://ats-candidates-weld.vercel.app/",
       code: "https://github.com/nishantmnair/ResumeRocket",
     },
@@ -40,7 +40,7 @@ export function Portfolio() {
       description:
         "developed a web app to organize and display detailed player data for ea fc24, allowing users to easily access and analyze player statistics to enhance game strategies and improve decision-making. architected a flask framework for the back-end paired with a react interface, resulting in a streamlined deployment process that reduced development time by 25% for future applications. built a mysql database for 15,000+ players, to support low-latency, scalable data access & smooth user interactions.",
       technologies: ["Python", "Flask", "MySQL", "React", "Jinja"],
-      image: "/images/project1.jpg",
+      image: "images/project1.jpg",
       liveDemo: "#",
       code: "https://github.com/nishantmnair/EA-FC-24-Database",
     },
